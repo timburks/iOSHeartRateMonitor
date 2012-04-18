@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A8518B153E8F3E000B4042 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8518A153E8F3E000B4042 /* UIKit.framework */; };
+		22A8518D153E8F3E000B4042 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8518C153E8F3E000B4042 /* Foundation.framework */; };
+		22A8518F153E8F3E000B4042 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A8518E153E8F3E000B4042 /* CoreGraphics.framework */; };
+		22A85195153E8F3E000B4042 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22A85193153E8F3E000B4042 /* InfoPlist.strings */; };
+		22A85197153E8F3E000B4042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A85196153E8F3E000B4042 /* main.m */; };
+		22A8519B153E8F3E000B4042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A8519A153E8F3E000B4042 /* AppDelegate.m */; };
+		22A851A2153E8F4F000B4042 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A851A1153E8F4F000B4042 /* CoreBluetooth.framework */; };
+		22A851AE153E964B000B4042 /* HeartRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A851AC153E964A000B4042 /* HeartRateViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22A85186153E8F3E000B4042 /* HRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A8518A153E8F3E000B4042 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22A8518C153E8F3E000B4042 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22A8518E153E8F3E000B4042 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22A85192153E8F3E000B4042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		22A85196153E8F3E000B4042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22A85198153E8F3E000B4042 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prefix.pch"; sourceTree = "<group>"; };
+		22A85199153E8F3E000B4042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22A8519A153E8F3E000B4042 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22A851A1153E8F4F000B4042 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		22A851AB153E964A000B4042 /* HeartRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateViewController.h; sourceTree = "<group>"; };
+		22A851AC153E964A000B4042 /* HeartRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A85183153E8F3E000B4042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A851A2153E8F4F000B4042 /* CoreBluetooth.framework in Frameworks */,
+				22A8518B153E8F3E000B4042 /* UIKit.framework in Frameworks */,
+				22A8518D153E8F3E000B4042 /* Foundation.framework in Frameworks */,
+				22A8518F153E8F3E000B4042 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A8517B153E8F3E000B4042 = {
+			isa = PBXGroup;
+			children = (
+				22A851A1153E8F4F000B4042 /* CoreBluetooth.framework */,
+				22A85190153E8F3E000B4042 /* HRM */,
+				22A85189153E8F3E000B4042 /* Frameworks */,
+				22A85187153E8F3E000B4042 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22A85187153E8F3E000B4042 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A85186153E8F3E000B4042 /* HRM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A85189153E8F3E000B4042 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22A8518A153E8F3E000B4042 /* UIKit.framework */,
+				22A8518C153E8F3E000B4042 /* Foundation.framework */,
+				22A8518E153E8F3E000B4042 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22A85190153E8F3E000B4042 /* HRM */ = {
+			isa = PBXGroup;
+			children = (
+				22A85199153E8F3E000B4042 /* AppDelegate.h */,
+				22A8519A153E8F3E000B4042 /* AppDelegate.m */,
+				22A85191153E8F3E000B4042 /* Supporting Files */,
+				22A851AB153E964A000B4042 /* HeartRateViewController.h */,
+				22A851AC153E964A000B4042 /* HeartRateViewController.m */,
+			);
+			path = HRM;
+			sourceTree = "<group>";
+		};
+		22A85191153E8F3E000B4042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22A85192153E8F3E000B4042 /* Info.plist */,
+				22A85193153E8F3E000B4042 /* InfoPlist.strings */,
+				22A85196153E8F3E000B4042 /* main.m */,
+				22A85198153E8F3E000B4042 /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A85185153E8F3E000B4042 /* HRM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A8519E153E8F3E000B4042 /* Build configuration list for PBXNativeTarget "HRM" */;
+			buildPhases = (
+				22A85182153E8F3E000B4042 /* Sources */,
+				22A85183153E8F3E000B4042 /* Frameworks */,
+				22A85184153E8F3E000B4042 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRM;
+			productName = HRM;
+			productReference = 22A85186153E8F3E000B4042 /* HRM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A8517D153E8F3E000B4042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Radtastical Inc.";
+			};
+			buildConfigurationList = 22A85180153E8F3E000B4042 /* Build configuration list for PBXProject "HRM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22A8517B153E8F3E000B4042;
+			productRefGroup = 22A85187153E8F3E000B4042 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A85185153E8F3E000B4042 /* HRM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A85184153E8F3E000B4042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A85195153E8F3E000B4042 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A85182153E8F3E000B4042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A85197153E8F3E000B4042 /* main.m in Sources */,
+				22A8519B153E8F3E000B4042 /* AppDelegate.m in Sources */,
+				22A851AE153E964B000B4042 /* HeartRateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22A85193153E8F3E000B4042 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A85194153E8F3E000B4042 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A8519C153E8F3E000B4042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22A8519D153E8F3E000B4042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22A8519F153E8F3E000B4042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRM/Prefix.pch";
+				INFOPLIST_FILE = "HRM/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22A851A0153E8F3E000B4042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HRM/Prefix.pch";
+				INFOPLIST_FILE = "HRM/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A85180153E8F3E000B4042 /* Build configuration list for PBXProject "HRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A8519C153E8F3E000B4042 /* Debug */,
+				22A8519D153E8F3E000B4042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A8519E153E8F3E000B4042 /* Build configuration list for PBXNativeTarget "HRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A8519F153E8F3E000B4042 /* Debug */,
+				22A851A0153E8F3E000B4042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22A8517D153E8F3E000B4042 /* Project object */;
+}
